@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{color}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{latexsym}
+\usepackage{enumerate}
+\title{\huge  IoT sprawozdanie 1\newline Patryk Tracz}
+\frenchspacing
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Formatowanie tekstu} 
+\begin{itemize}
+\huge \item  Czcionki \newline
+\texttt{Typewriter} \\ \\ \\ \\ \\
+\huge   Wielkosc czcionki \newline \\
+\\
+\normalsize Czcionka automatyczna \newline \\
+\large  large  \newline \\
+\small  small  \newline \\
+\tiny Bardzo mala  \newline \\
+
+
+
+\huge   Kolorowanie tekstu \newline \large
+{\color{red}  czerwony} \\
+{\color{green}  zielony}\\
+
+
+\huge   Pogrubienie, kursywa, podkreslenia\newline \\ 
+\large \textbf{Czcionka pogrubiona} \\
+\textit{Czcionka pochylona}\\ 
+\uline{pojedyncze podkreslenie}\\
+\uuline{podwójne podkreslenie}\\
+
+ \huge Centrowanie tekstu\newline
+\begin{flushleft}
+\large Do lewej
+\end{flushleft}
+\begin{center}
+\large Srodku
+\end{center}
+\begin{flushright}
+\large DO prawej
+\end{flushright}
+\end{itemize}
+\section{Formatowanie Tabel}
+\begin{flushleft}
+
+\large  Kontener \newline \\ 
+\begin{tabular}{|p{4.7cm}|} \hline
+witam
+\\ \hline
+\end{tabular}
+\\
+\large Tabela z 3x3 \newline \\
+\begin{tabular}{|r|l|r|} \hline
+1&  22 & 3 \\ 
+\hline
+7 & 8 & 9 \\
+\hline 
+ala&ma&kota\\
+\hline 
+\end{tabular}
+\end{flushleft}
+
+
+\section{Wzory}
+
+$$
+\lim_{n \to \infty}
+\sum_{k=1}^n \frac{1}{k^2}
+= \frac{\pi^3}{10}
+$$
+\section{Bibliografia}
+
+\begin{thebibliography}{1}
+
+\url http://latex-kurs.x25.pl// \\
+
+\end{thebibliography}
+
+
+\end{document}
